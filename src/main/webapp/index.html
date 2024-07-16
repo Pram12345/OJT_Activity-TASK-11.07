@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Submission Form</title>
+</head>
+<body>
+    <h1>Submit Your Data</h1>
+    <form action="AmanC" method="post">
+        <input type="hidden" name="action" value="insert">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city" required><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+    <br>
+    <a href="AmanC?action=read">View Data</a>
+</body>
+</html>
